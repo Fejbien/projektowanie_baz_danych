@@ -1,1 +1,1 @@
-cos
+Bazy danych
