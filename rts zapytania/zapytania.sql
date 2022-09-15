@@ -9,3 +9,5 @@ SELECT * FROM `stats_and_resources` WHERE 1;
 SELECT * FROM `warriors` WHERE 1;
 SELECT * FROM `workers` WHERE 1;
 SELECT * FROM `workers_has_buildings` WHERE 1;
+
+SELECT * FROM stats_and_resources INNER JOIN resources_types ON stats_and_resources.id=resources_types.resources_id;
